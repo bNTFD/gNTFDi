@@ -1,5 +1,5 @@
 
-<p align="center"><img src="https://raw.githubusercontent.com/MyconidsGalaxy/myconidsgalaxy.github.io/master/logo.png"></p>
+<p align="center"><img src="images/logo.png"></p>
 
 ## Galaxy for Neglected Tropical Fungal Diseases (gNTFD)
 
