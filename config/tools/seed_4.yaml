@@ -1,0 +1,74 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: fakekey
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: False
+install_resolver_dependencies: True
+install_tool_dependencies: True
+tools:
+
+############# MAPPING
+- name: bowtie2
+  owner: devteam
+  tool_panel_section_id: 'mapping'
+  
+- name: package_bowtie_2_2_6
+  owner: iuc
+  tool_panel_section_id: 'mapping'
+  
+- name: bwa
+  owner: devteam
+  tool_panel_section_id: 'mapping'
+  
+- name: package_bwa_0_7_12
+  owner: iuc
+  tool_panel_section_id: 'mapping'
+  
+- name: sr_bowtie
+  owner: artbio
+  tool_panel_section_id: 'mapping'
+  
+- name: sr_bowtie_dataset_annotation
+  owner: artbio
+  tool_panel_section_id: 'mapping'
+  
+- name: graphmap_overlap
+  owner: bgruening
+  tool_panel_section_id: 'mapping'
+
+- name: graphmap_align
+  owner: bgruening
+  tool_panel_section_id: 'mapping'
+
+- name: bismark
+  owner: bgruening
+  tool_panel_section_id: 'mapping'
+
+- name: bwameth
+  owner: iuc
+  tool_panel_section_id: 'mapping'
+  
+######## TUXEDO SUITE
+- name: tophat2
+  owner: devteam
+  tool_panel_section_id: 'tuxedo'
+  
+- name: package_tophat2_2_0_9
+  owner: devteam
+  tool_panel_section_id: 'tuxedo'
+ 
+- name: tophat_stats_pe
+  owner: jjohnson
+  tool_panel_section_id: 'tuxedo'
+
+- name: suite_cufflinks_2_2_1
+  owner: devteam
+  tool_panel_section_id: 'tuxedo'
+  
+- name: package_cufflinks_2_2_1
+  owner: devteam
+  tool_panel_section_id: 'tuxedo'
+  
+#####################
+#####################
+#####################

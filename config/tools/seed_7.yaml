@@ -1,0 +1,92 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: fakekey
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: False
+install_resolver_dependencies: True
+install_tool_dependencies: True
+tools:
+
+############# ChIP-seq Analysis
+
+- name: bdds
+  owner: sjung
+  tool_panel_section_id: 'chipseq'
+  
+- name: chipseeker
+  owner: rnateam
+  tool_panel_section_id: 'chipseq'
+  
+#####################
+#####################
+#####################
+
+############# RAD-Seq Analysis
+
+- name: package_stacks_1_40
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+  
+- name: suite_stacks
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+  
+- name: stacks_sstacks
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+ 
+- name: stacks_genotypes
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+
+- name: stacks_denovomap
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+
+- name: stacks_ustacks
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+
+- name: stacks_assembleperead
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+
+- name: stacks_procrad
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+
+- name: stacks_refmap
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+
+- name: stacks_cstacks
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+
+- name: stacks_rxstacks
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+
+- name: stacks_pstacks
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+
+- name: stacks_populations
+  owner: iuc
+  tool_panel_section_id: 'radseq'
+  
+#####################
+#####################
+#####################
+
+- name: hmmer3
+  owner: iuc
+  tool_panel_section_id: 'hmm'
+
+- name: transit_hmm
+  owner: iuc
+  tool_panel_section_id: 'hmm'
+
+- name: sshmm
+  owner: rnateam
+  tool_panel_section_id: 'hmm'

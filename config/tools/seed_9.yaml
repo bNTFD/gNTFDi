@@ -1,0 +1,127 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: fakekey
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: False
+install_resolver_dependencies: True
+install_tool_dependencies: True
+tools:
+
+#####################
+#####################
+#####################
+
+###### ANNOT PACKAGES
+
+- name: infernal
+  owner: bgruening
+  tool_panel_section_id: 'annot'
+
+- name: busco
+  owner: iuc
+  tool_panel_section_id: 'annot'
+
+- name: augustus
+  owner: bgruening
+  tool_panel_section_id: 'annot'
+
+# The augustus suite installs augustus_training which depends on the huge maker package
+- name: suite_augustus
+  owner: bgruening
+  tool_panel_section_id: 'annot'
+
+- name: suite_snap
+  owner: iuc
+  tool_panel_section_id: 'annot'
+
+- name: suite_maker
+  owner: iuc
+  tool_panel_section_id: 'annot'
+
+- name: clinod
+  owner: peterjc
+  tool_panel_section_id: 'annot'
+
+- name: antismash
+  owner: bgruening
+  tool_panel_section_id: 'annot'
+  
+- name: roary
+  owner: iuc
+  tool_panel_section_id: 'annot'
+  
+- name: transit_tn5gaps
+  owner: iuc
+  tool_panel_section_id: 'annot'
+  
+- name: transit_gumbel
+  owner: iuc
+  tool_panel_section_id: 'annot'
+  
+- name: tetyper
+  owner: iuc
+  tool_panel_section_id: 'annot'
+  
+- name: temp
+  owner: portiahollyoak
+  tool_panel_section_id: 'annot'
+  
+- name: dante
+  owner: petr-novak
+  tool_panel_section_id: 'annot'
+  
+- name: kobas
+  owner: iuc
+  tool_panel_section_id: 'annot'
+  
+- name: goseq
+  owner: iuc
+  tool_panel_section_id: 'annot'
+  
+- name: goslimmer
+  owner: iuc
+  tool_panel_section_id: 'annot'
+  
+- name: goenrichment
+  owner: iuc
+  tool_panel_section_id: 'annot'
+  
+- name: suite_goenrichment
+  owner: iuc
+  tool_panel_section_id: 'annot'
+  
+- name: hammock
+  owner: hammock
+  tool_panel_section_id: 'annot'
+
+- name: tmhmm_and_signalp
+  owner: peterjc
+  tool_panel_section_id: 'annot'
+
+- name: trna_prediction
+  owner: bgruening
+  tool_panel_section_id: 'annot'
+  
+- name: package_trnascan_1_3_1
+  owner: iuc
+  tool_panel_section_id: 'annot'
+  
+- name: nucleosome_prediction
+  owner: bgruening
+  tool_panel_section_id: 'annot'
+  
+- name: dotknot
+  owner: bgruening
+  tool_panel_section_id: 'annot'
+
+- name: eggnog_mapper
+  owner: galaxyp
+  tool_panel_section_id: 'annot'
+  
+- name: interproscan5
+  owner: bgruening
+  tool_panel_section_id: 'annot'
+
+- name: sortmerna
+  owner: rnateam
+  tool_panel_section_id: 'annot'

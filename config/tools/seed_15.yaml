@@ -1,0 +1,99 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: fakekey
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: False
+install_resolver_dependencies: True
+install_tool_dependencies: True
+tools:
+
+############# MICROBIOME
+
+- name: lefse
+  owner: george-weingart
+  tool_panel_section_id: 'lefse'
+
+- name: suite_picrust
+  owner: iuc
+  tool_panel_section_id: 'picrust'
+  
+- name: picrust_categorize
+  owner: iuc
+  tool_panel_section_id: 'picrust'
+
+- name: picrust_compare_biom
+  owner: iuc
+  tool_panel_section_id: 'picrust'
+  
+- name: picrust_format_tree_and_trait_table
+  owner: iuc
+  tool_panel_section_id: 'picrust'
+  
+- name: picrust_metagenome_contributions
+  owner: iuc
+  tool_panel_section_id: 'picrust'
+  
+- name: picrust_normalize_by_copy_number
+  owner: iuc
+  tool_panel_section_id: 'picrust'
+  
+- name: picrust_predict_metagenomes
+  owner: iuc
+  tool_panel_section_id: 'picrust'
+  
+  # metabolism_assignation
+- name: 'suite_humann2'
+  owner: 'iuc'
+  tool_panel_section_id: 'metabolism_assignation'
+  
+- name: 'group_humann2_uniref_abundances_to_go'
+  owner: 'bebatut'
+  tool_panel_section_id: 'metabolism_assignation'
+
+- name: 'compare_humann2_output'
+  owner: 'bebatut'
+  tool_panel_section_id: 'metabolism_assignation'
+
+# metagenomics_manipulation
+- name: 'vsearch'
+  owner: 'iuc'
+  tool_panel_section_id: 'metagenomics_manipulation'
+
+- name: 'nonpareil'
+  owner: 'iuc'
+  tool_panel_section_id: 'metagenomics_manipulation'
+  
+# assembly
+- name: 'megahit'
+  owner: 'iuc'
+  tool_panel_section_id: 'metaassembly'
+
+- name: 'metaspades'
+  owner: 'nml'
+  tool_panel_section_id: 'metaassembly'
+
+############# MICROBIOME
+  
+- name: itsx
+  owner: aafc-mbb
+  tool_panel_section_id: 'itsx'
+
+- name: 'suite_biom_format'
+  owner: 'iuc'
+  tool_panel_section_id: 'biom'
+  
+############# MICROBIOME
+
+- name: package_python_2_7_qiime_1_9_1
+  owner: iuc
+  tool_panel_section_id: 'qiime'
+  install_tool_dependencies: True
+  install_resolver_dependencies: False
+
+- name: suite_qiime
+  owner: iuc
+  tool_panel_section_id: 'qiime'
+
+- name: data_manager_qiime_database_downloader
+  owner: iuc
+  tool_panel_section_id: 'qiime'

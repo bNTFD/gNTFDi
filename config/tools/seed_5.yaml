@@ -1,0 +1,70 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: fakekey
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: False
+install_resolver_dependencies: True
+install_tool_dependencies: True
+tools:
+
+############# RNA-SEQ
+
+- name: rgrnastar
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+  
+- name: suite_rgrnastar
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+    
+- name: hisat2
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+  
+- name: stringtie
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+  
+- name: package_stringtie_1_2_3
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+  
+- name: package_rsem_1_2_28
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+  
+- name: rsem
+  owner: jjohnson
+  tool_panel_section_id: 'rnaseq'
+  
+- name: salmon
+  owner: bgruening
+  tool_panel_section_id: 'rnaseq'
+  
+- name: suite_salmon
+  owner: bgruening
+  tool_panel_section_id: 'rnaseq'
+  
+- name: sailfish
+  owner: bgruening
+  tool_panel_section_id: 'rnaseq'
+  
+- name: package_sailfish_0_7_6
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+  
+- name: suite_kallisto
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+  
+- name: kallisto_quant
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+  
+- name: kallisto_pseudo
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+ 
+#####################
+#####################
+#####################

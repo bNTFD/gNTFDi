@@ -1,0 +1,128 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: fakekey
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: False
+install_resolver_dependencies: True
+install_tool_dependencies: True
+tools:
+
+######### RNA ASSEMBLY
+- name: suite_trinity
+  owner: iuc
+  tool_panel_section_id: 'rna_assembly'
+
+- name: package_trinity_2_2_0
+  owner: iuc
+  tool_panel_section_id: 'rna_assembly'
+  
+- name: trinotate
+  owner: iuc
+  tool_panel_section_id: 'rna_assembly'
+  
+- name: transdecoder
+  owner: iuc
+  tool_panel_section_id: 'rna_assembly'
+  
+- name: package_transdecoder_2_1_0
+  owner: iuc
+  tool_panel_section_id: 'rna_assembly'
+  
+- name: rnaspades
+  owner: iuc
+  tool_panel_section_id: 'rna_assembly'
+  
+- name: oasesoptimiser
+  owner: konradpaszkiewicz
+  tool_panel_section_id: 'rna_assembly'
+  
+#####################
+#####################
+#####################
+
+########### SPLICING TOOLS
+- name: colibread_kissplice
+  owner: iuc
+  tool_panel_section_id: 'splice'
+
+- name: minimap2
+  owner: iuc
+  tool_panel_section_id: 'splice'
+
+- name: splicesite_max_entropy
+  owner: xuebing
+  tool_panel_section_id: 'splice'
+  
+- name: filter_bed_on_splice_junctions
+  owner: jjohnson
+  tool_panel_section_id: 'splice'
+  
+#####################
+#####################
+#####################
+
+############# METHYLATION ANALYSIS
+
+- name: methylkit
+  owner: rnateam
+  tool_panel_section_id: 'methylation'
+  
+- name: metilene
+  owner: rnateam
+  tool_panel_section_id: 'methylation'
+  
+- name: qcma
+  owner: andreu
+  tool_panel_section_id: 'methylation'
+  
+#####################
+#####################
+#####################
+
+########### FUSION TOOLS
+
+- name: star_fusion
+  owner: iuc
+  tool_panel_section_id: 'fusion'
+  
+#####################
+#####################
+#####################
+
+######### DNA ASSEMBLY
+- name: mira_assembler
+  owner: peterjc
+  tool_panel_section_id: 'dna_assembly'
+
+- name: spades
+  owner: lionelguy
+  tool_panel_section_id: 'dna_assembly'
+
+- name: sopra
+  owner: crs4
+  tool_panel_section_id: 'dna_assembly'
+
+- name: ssake
+  owner: crs4
+  tool_panel_section_id: 'dna_assembly'
+
+- name: edena
+  owner: crs4
+  tool_panel_section_id: 'dna_assembly'
+  
+- name: velvet
+  owner: devteam
+  tool_panel_section_id: 'dna_assembly'
+  
+- name: velvetoptimiser
+  owner: simon-gladman
+  tool_panel_section_id: 'dna_assembly'
+  
+######### Meta ASSEMBLY
+- name: 'megahit'
+  owner: 'iuc'
+  tool_panel_section_id: 'meta_assembly'
+
+- name: 'metaspades'
+  owner: 'nml'
+  tool_panel_section_id: 'meta_assembly'

@@ -1,0 +1,180 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: fakekey
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: False
+install_resolver_dependencies: True
+install_tool_dependencies: True
+tools:
+
+- name: nanopolish_variants
+  owner: bgruening
+  tool_panel_section_id: 'nanopore'
+
+- name: nanopolish_methylation
+  owner: bgruening
+  tool_panel_section_id: 'nanopore'
+
+- name: nanopolish_eventalign
+  owner: bgruening
+  tool_panel_section_id: 'nanopore'
+
+- name: nanopolish_polya
+  owner: bgruening
+  tool_panel_section_id: 'nanopore'
+
+- name: ont_fast5_api_fast5_subset
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: ont_fast5_api_compress_fast5
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: ont_fast5_api_single_to_multi_fast5
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: ont_fast5_api_multi_to_single_fast5
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: medaka_consensus
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: medaka_consensus_pipeline
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: medaka_variant
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: medaka_variant_pipeline
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: nanopolishcomp_eventaligncollapse
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: nanopolishcomp_freqmethcalculate
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: nanocompore_db
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: nanocompore_sampcomp
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: nanopolishcomp_eventaligncollapse
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: nanoplot
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+
+- name: porechop
+  owner: iuc
+  tool_panel_section_id: 'nanopore'
+  
+- name: anndata_import
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: anndata_export
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: anndata_manipulate
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: anndata_inspect
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: modify_loom
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: dropletutils
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: raceid_inspectclusters
+  owner: iuc
+  tool_panel_section_label: Single-cell
+
+- name: raceid_filtnormconf
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: raceid_clustering
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: raceid_trajectory
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: raceid_inspecttrajectory
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scater_create_qcmetric_ready_sce
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scater_plot_tsne
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scater_filter
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scater_normalize
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scater_plot_dist_scatter
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scater_plot_exprs_freq
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scater_plot_pca
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scanpy_cluster_reduce_dimension
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scanpy_filter
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scanpy_inspect
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scanpy_normalize
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scanpy_plot
+  owner: iuc
+  tool_panel_section_id: 'single-cell'
+
+- name: scanpy_remove_confounders
+  owner: iuc
+  tool_panel_section_id: 'single-cell'

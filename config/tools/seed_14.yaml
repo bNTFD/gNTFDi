@@ -1,0 +1,368 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: fakekey
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: False
+install_resolver_dependencies: True
+install_tool_dependencies: True
+tools:
+
+- name:  intermine_galaxy_exchange
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: indels_3way
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+
+- name: draw_stacked_barplots
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+
+- name: delete_overlapping_indels
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+
+- name: compute_motifs_frequency
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+
+- name: compute_motif_frequencies_for_all_motifs
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+
+- name: categorize_elements_satisfying_criteria
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+
+- name: best_regression_subsets
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: principal_component_analysis
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: kernel_principal_component_analysis
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: kernel_canonical_correlation_analysis
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: canonical_correlation_analysis
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: translate_bed_sequences
+  owner: jjohnson
+  tool_panel_section_label: Operate on Genomic Intervals
+
+- name: filter_bed_on_splice_junctions
+  owner: jjohnson
+  tool_panel_section_label: Operate on Genomic Intervals
+
+- name: map_peptides_to_bed
+  owner: galaxyp
+  tool_panel_section_label: Convert Formats
+
+- name: idconvert
+  owner: galaxyp
+  tool_panel_section_label: Convert Formats
+
+- name: idpquery
+  owner: galaxyp
+  tool_panel_section_label: Convert Formats
+
+- name: thermo_raw_file_converter
+  owner: galaxyp
+  tool_panel_section_label: Convert Formats
+
+- name: msconvert
+  owner: galaxyp
+  tool_panel_section_label: Convert Formats
+
+- name: gffcompare_to_bed
+  owner: galaxyp
+  tool_panel_section_label: Convert Formats
+
+- name: translate_bed
+  owner: galaxyp
+  tool_panel_section_label: Operate on Genomic Intervals
+
+- name: bed_to_protein_map
+  owner: galaxyp
+  tool_panel_section_label: Convert Formats
+
+- name: mz_to_sqlite
+  owner: galaxyp
+  tool_panel_section_label: Convert Formats
+
+- name: msms_extractor
+  owner: galaxyp
+  tool_panel_section_label: Convert Formats
+
+- name: collection_element_identifiers
+  owner: iuc
+  tool_panel_section_label: Collection Operations
+
+- name: graphembed
+  owner: iuc
+  tool_panel_section_label: Statistics
+
+- name: table_compute
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+
+- name: column_maker
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: reshape2_melt
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+
+- name: reshape2_cast
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+
+- name: add_value
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: dwt_var_perfeature
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: merge_cols
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: jq
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+
+- name: column_maker
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: coverage
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: tables_arithmetic_operations
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: merge
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: intersect
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: flanking_features
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: join
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: cluster
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: get_flanks
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: complement
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: subtract
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: basecoverage
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: subtract_query
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: dna_filtering
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+
+- name: collection_column_join
+  owner: iuc
+  tool_panel_section_label: Join, Subtract and Group
+
+- name: subtract
+  owner: devteam
+  tool_panel_section_label: Join, Subtract and Group
+
+- name: crossmap_bam
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: crossmap_bed
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: crossmap_gff
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: crossmap_vcf
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: crossmap_wig
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: bam_to_scidx
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: resize_coordinate_window
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: gffread
+  owner: devteam
+  tool_panel_section_label: Convert Formats
+
+- name: ucsc_twobittofa
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: bax2bam
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: genebed_maf_to_fasta
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: interval2maf
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: concat
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+
+- name: complement
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+
+- name: cluster
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+
+- name: basecoverage
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+
+- name: annotation_profiler
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+
+- name: t_test_two_samples
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: plot_from_lda
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: mine
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: lda_analysis
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: generate_pc_lda_matrix
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: count_gff_features
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: correlation
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: best_regression_subsets
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: principal_component_analysis
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: kernel_principal_component_analysis
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: kernel_canonical_correlation_analysis
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: canonical_correlation_analysis
+  owner: devteam
+  tool_panel_section_label: Statistics
+
+- name: column_order_header_sort
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+
+- name: column_remove_by_header
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+
+- name: gff3_rebase
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+
+- name: iwtomics_loadandplot
+  owner: iuc
+  tool_panel_section_label: Statistics
+
+- name: iwtomics_testandplot
+  owner: iuc
+  tool_panel_section_label: Statistics
+
+- name: iwtomics_plotwithscale
+  owner: iuc
+  tool_panel_section_label: Statistics
+
+- name: fraggenescan
+  owner: iuc
+  tool_panel_section_label: Extract Features
+
+- name: gffcompare
+  owner: iuc
+  tool_panel_section_label: Filter and Sort
+
+- name: gfa_to_fa
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: biom_convert
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+
+- name: gtftobed12
+  owner: iuc
+  tool_panel_section_label: Convert Formats

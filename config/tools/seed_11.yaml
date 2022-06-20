@@ -1,0 +1,47 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: fakekey
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: False
+install_resolver_dependencies: True
+install_tool_dependencies: True
+tools:
+
+#####################
+#####################
+#####################
+- name: find_repeats
+  owner: nml
+  tool_panel_section_id: 'repeat'
+  
+- name: mgescan
+  owner: hyungrolee
+  tool_panel_section_id: 'repeat'
+  
+- name: repeatexplorer2
+  owner: petr-novak
+  tool_panel_section_id: 'repeat'
+  
+- name: repeatexplorer2_cerit
+  owner: petr-novak
+  tool_panel_section_id: 'repeat'
+  
+- name: repeatexplorer2_testing
+  owner: petr-novak
+  tool_panel_section_id: 'repeat'
+  
+- name: repeat_masker
+  owner: bgruening
+  tool_panel_section_id: 'repeat'
+  
+- name: repeatrxplorer
+  owner: petr-novak
+  tool_panel_section_id: 'repeat'
+  
+- name: repenrich
+  owner: artbio
+  tool_panel_section_id: 'repeat'
+  
+- name: trtr
+  owner: mrvollger
+  tool_panel_section_id: 'repeat'
