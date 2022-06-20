@@ -24,20 +24,6 @@ Currently, **Myconids** presents XXX reference genomes in its repository with th
 
 ---
 
-## Mock community
-
-**Myconids** also provides mock communities for pipeline and tool testing:
-
-**Mock:** DRR0535087
-
-**TABLE 1:** Genera, species, ITS1 length, and the percentage of fungi used in the mock community.
-
-<img src="https://raw.githubusercontent.com/MyconidsGalaxy/myconidsgalaxy.github.io/master/images/DRR053508.png"/>
-
-**Obs:** (a) IFM is the abbreviation for Institute of Food Microbiology. (b) Each percentage is the theoretical mock community abundance of each fungal species. The amplicons were mixed to yield equal amount of DNA (each was 50 ng) of each sample.
-
----
-
 ## Galaxy Docker Image
 
 The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.
