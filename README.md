@@ -1,8 +1,6 @@
 
 <p align="center"><img src="images/logo.png"></p>
 
-## Galaxy for Neglected Tropical Fungal Diseases (gNTFD)
-
 ---
 
 **Myconids** is a practical bioinformatics workbench, based on the Galaxy User Interface (UI), dedicated to the analysis of Neglected Tropical Fungal Diseases dataset. **Myconids** was developed as a Docker-based middleware layer, enabling easy deployment across different infrastructure models (including leading Infrastructure-as-a-Service (IaaS) systems) and providing a powerful Platform-as-a-Service (PaaS) environment for a variety of bioinformatics analyses.
